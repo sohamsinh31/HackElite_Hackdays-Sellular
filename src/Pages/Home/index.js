@@ -1,9 +1,12 @@
 import React from 'react'
+import InChat from '../../Components/InputChat'
+import Header from '../../Components/Header'
 
 const Home = () => {
   return (
-    <div style={{alignItems:'center',color:'white'}}>
-      Hello world
+    <div>
+      <Header/>
+      <InChat/>
     </div>
   )
 }
